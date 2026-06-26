@@ -1,0 +1,37 @@
+# Android Studio
+.idea/
+*.iml
+.gradle/
+local.properties
+/build/
+/captures/
+.externalNativeBuild/
+
+# Mac OS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Gradle
+gradle-wrapper.jar
+/gradle/
+gradlew
+gradlew.bat
+
+# Java
+*.class
+*.jar
+*.war
+*.log
+
+# Temporary files
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
