@@ -1,3 +1,97 @@
-A straightforward mobile to-do list app designed for creating, editing, and organizing tasks. 
+# Тестирование мобильного приложения Todo List
 
-This project helped me practice working with user input, basic UI/UX structure, and managing data in a lightweight, functional format. Built to explore key concepts in mobile development and improve testing skills for interactive features.
+> Проект выполнен в рамках курса "Функциональное тестирование ПО"  
+> **Цель проекта** – протестировать небольшое мобильное приложение, составить базовую тестовую документацию и оформить её, потренироваться работать с эмулятором в Android Studio  
+
+---
+
+## 📱 Описание приложения
+
+<table>
+  <tr>
+    <td width="300">
+      <img src="screenshots/app_1.jpg" alt="Главный экран приложения" width="300">
+    </td>
+    <td width="300">
+      <img src="screenshots/app_2.jpg" alt="Редактирование задачи" width="300">
+    </td>
+    <td style="vertical-align: top;">
+      <p><strong>Todo List</strong> — это простое приложение для ведения списка задач на Android</p> 
+      <p>Позволяет добавлять, редактировать, удалять задачи и отмечать их как выполненные</p>
+      <p><strong>Основные экраны / функциональность</strong></p>
+      <p>Экран списка задач:
+      <ul style="margin-top: 0; padding-left: 20px;">
+        <li>Поле ввода</li>
+        <li>Кнопка добавления задач</li>
+        <li>Список задач с чекбоксами</li>
+        <li>Кнопки удаления задач</li></ul></p>
+    <p>Редактирование задач (долгое нажатие):
+      <ul style="margin-top: 0; padding-left: 20px;">
+        <li>Поп-ап с полем ввода</li>
+        <li>Кнопка сохранения изменений</li>
+        <li>Кнопка отмены изменений</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🛠 Инструменты тестирования
+
+| Тестирование | Ручное, исследовательское, функциональное |
+|-----------|-------------|
+| Среда разработки | Android Studio |
+| Документация | TestIT, GitHub |
+| Управление тестами | Чек-лист, тест-кейсы |
+| Отслеживание багов | Баг-репорты |
+
+---
+
+## 🚀 Инструкция по запуску 
+
+### 1. Установить Android Studio
+Скачать и установить [Android Studio](https://developer.android.com/studio) с официального сайта
+
+### 2. Склонировать репозиторий проекта
+Открыть терминал и выполнить:
+```bash
+git clone git@github.com:softpaw-mango-cat/todo-list-app.git
+cd todo-list-app  
+```
+
+### 3. Запустить эмулятор в Android Studio
+- Открыть проект в Android Studio  
+  
+  <img src="screenshots/project_1.png" alt="Настройка проекта в Studio" width="300">
+
+- Найти Device Manager и создать устройство для эмуляции (например, Pixel 9 Pro)
+  
+  <img src="screenshots/project_2.png" alt="Настройка проекта в Studio" width="300">
+
+
+- Выбрать конфигурацию устройства (или использовать рекомендуемую) и подождать загрузки необходимых компонентов
+  
+  <img src="screenshots/project_3.png" alt="Настройка проекта в Studio" width="300">
+
+
+- Запускаем выбранное устройство в Device Manager, перетаскиваем app.apk из папки проекта на устройство
+
+  <img src="screenshots/project_4.png" alt="Настройка проекта в Studio" width="500">
+
+- Нажимаем на иконку приложения на эмулированном телефоне, чтобы запустить его. Приложение можно тестировать 🔥
+  
+  <img src="screenshots/project_5.png" alt="Настройка проекта в Studio" width="300">
+
+- *Опционально - приложение можно также запустить на своём физическом устройстве (телефоне на Android) или добавить его в Android Studio, чтобы тестировать через интерфейс Studio.*
+
+
+## ✅ Результаты тестирования 
+
+Чтобы протестировать основную функциональность приложения, был написан чек-лист необходимых проверок, и затем разработаны тест-кейсы:
+- [Чеклист](test-artifacts/Чек-лист_Приложение.pdf) 
+- [Тест-кейсы](test-artifacts/Тест-кейсы_Приложение.pdf)  
+   *тест-кейсы можно также посмотреть [в этом проекте](ссылка) в TestIT*
+
+По результатам прохождения тест-кейсов было найдено несколько багов, задокументированных здесь:
+- [Баг-репорты](test-artifacts/Баг-репорты_Приложение.pdf) 
