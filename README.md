@@ -94,10 +94,11 @@ git clone git@github.com:softpaw-mango-cat/todo-list-app.git
   
 
 [Тест-кейсы - ссылка на гугл-таблицу](https://docs.google.com/spreadsheets/d/1_VVhHwFq_Km8h8RHfvCSrSh-xr8J6LFAfSyv45_wKmU/edit?usp=sharing)
+
+[Баг-репорты - ссылка на гугл-таблицу](https://docs.google.com/spreadsheets/d/1J04u481pCNr-XKiKd7lTxV1RqD-THbXV9NBfCxVvCPg/edit?usp=sharing) 
+
 <details>
   <summary><i>Тест-кейсы были выполнены в системе управления тестированием TestIT - ниже пара скриншотов проекта</i></summary>
   <img src="screenshots/project_6.png" alt="Скриншот проекта в TestIT" width="600"> 
   <img src="screenshots/project_7.png" alt="Скриншот проекта в TestIT" width="600"> 
-</details><br>
-
-[Баг-репорты](test-artifacts/Баг-репорты_Приложение.pdf) 
+</details>  
